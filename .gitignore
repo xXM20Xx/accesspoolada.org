@@ -1,0 +1,20 @@
+# This repo is PUBLIC. Nothing sensitive may ever land here.
+# No key material, no credentials, no tokens.
+*.skey
+*.vkey
+*.counter
+*.cert
+.env
+.env.*
+*.token
+*.credentials
+cloudflare*.json
+*.pem
+*.key
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

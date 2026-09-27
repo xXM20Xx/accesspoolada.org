@@ -1,0 +1,6 @@
+# Serve and store everything with LF endings.
+* text=auto eol=lf
+
+# The metadata file is HASHED into the pool registration certificate.
+# Never let git rewrite a single byte of it.
+poolMetaData.json -text

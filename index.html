@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AXESS: Cardano stake pool funding nonprofits that remove barriers</title>
+<meta name="description" content="AXESS is a Cardano stake pool. Half of the operator margin goes to charitable nonprofits that remove barriers, in areas like clean water, disability access, technology, and hearing. Delegators vote on recipients.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header>
+  <p class="ticker">Ticker <strong>AXESS</strong>, pronounced &ldquo;access&rdquo;</p>
+  <h1>Removing barriers, funded by staking</h1>
+  <p class="lede">AXESS is a Cardano stake pool. Half of the operator's margin
+  goes to charitable nonprofits that remove barriers for people, in areas like
+  clean water, disability access, technology, and hearing. Delegators vote on
+  which ones.</p>
+  <p class="tagline">Direct dollars for direct services.</p>
+  <p class="status"><strong>Status:</strong> running on the Cardano
+  <em>Preview</em> test network. Not yet accepting mainnet delegation.</p>
+</header>
+
+<main id="main">
+
+  <section aria-labelledby="how">
+    <h2 id="how">How the money works</h2>
+    <p>Each epoch, the operator takes a fixed fee and a margin from the pool's
+    rewards, and delegators share the rest. Donations come out of the
+    operator's share, never out of delegators' rewards.</p>
+    <dl>
+      <dt>Fixed fee</dt>
+      <dd><strong>170 ADA per epoch</strong>, the network minimum, until the
+      pool passes 10 million ADA delegated. Then <strong>340 ADA</strong>.
+      A flat fee takes a bigger share of rewards when a pool is small, so it
+      starts at the minimum.</dd>
+
+      <dt>Margin</dt>
+      <dd><strong>5%</strong> of the rewards left after the fixed fee, from
+      the start.</dd>
+
+      <dt>Donated</dt>
+      <dd><strong>50% of the operator margin</strong>. With a 5% margin, that
+      is 2.5% of the pool's rewards after the fixed fee.</dd>
+    </dl>
+    <p class="note">Any pool can change its fee and margin at any time. This
+    schedule was published before the pool had any delegators, and
+    <strong>any change will be announced here at least two epochs before it
+    takes effect</strong>. The fee only goes up once delegated stake actually
+    passes 10 million ADA. Stake figures are public, so you can check.</p>
+  </section>
+
+  <section aria-labelledby="who-qualifies">
+    <h2 id="who-qualifies">Who qualifies</h2>
+    <p>Registered charitable nonprofits (501(c)(3) in the US, or the local
+    equivalent elsewhere) whose main work is <strong>direct services</strong>
+    that remove barriers for people.</p>
+    <p><strong>Never eligible:</strong> political candidates, campaigns,
+    parties or officeholders; PACs; lobbying organizations and groups whose
+    main activity is political advocacy; ballot-measure committees.</p>
+  </section>
+
+  <section aria-labelledby="vote">
+    <h2 id="vote">How recipients are chosen</h2>
+    <ol>
+      <li>A shortlist of vetted organizations is published here, with the
+      criteria used to pick them.</li>
+      <li>Delegators vote, weighted by stake.</li>
+      <li>The results and the amount sent are published here.</li>
+    </ol>
+    <p>Voting happens once a year at first, then quarterly once the amounts
+    are big enough. If too few delegators vote, the money goes to a default
+    recipient.</p>
+  </section>
+
+  <section aria-labelledby="proof">
+    <h2 id="proof">Receipts</h2>
+    <p>Every donation is recorded on-chain as transaction metadata tied to this
+    pool's ID, so you can check it yourself.</p>
+    <p class="note">No donations yet. The pool is still on a test network.</p>
+  </section>
+
+  <section aria-labelledby="access">
+    <h2 id="access">About this site</h2>
+    <p>This site is built to work with a screen reader and a keyboard, and to
+    resize without breaking. It follows your system's light or dark setting,
+    and color is never the only way information is shown. It uses no
+    JavaScript, no tracking, and no cookies.</p>
+    <p>If something here is hard to use, please report it.</p>
+  </section>
+
+  <section aria-labelledby="who">
+    <h2 id="who">Who runs it</h2>
+    <p>AXESS runs on a small, low-power computer at home. That keeps costs
+    down and helps keep the network spread across many independent
+    operators.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>AXESS is a stake pool that donates. It is not a registered
+  charity, and contributions to it are not tax-deductible.</strong> The
+  <code>.org</code> domain reflects the mission, not a legal status.</p>
+  <p>Pool metadata: <a href="poolMetaData.json">poolMetaData.json</a></p>
+</footer>
+
+</body>
+</html>
